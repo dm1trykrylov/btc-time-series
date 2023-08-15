@@ -1,8 +1,22 @@
 # Bitcoin price prediction
 
-Перед запуском ноутбука необходимо установить зависимости:
+## Инструкции по запуску
+
+Скопировать это репозиторий:
 ```bash
-pip3 install -r requirements.txt
+$ git clone https://github.com/dm1trykrylov/btc-time-series.git
+$ cd btc-time-series
+```
+
+Чтобы избежать конфликтов версий, лучше перед запуском ноутбука активировать virtual environment :
+```bash
+$ python -m venv venv
+$ source venv/bin/activate
+```
+
+В начало ноутбука вставлена команда для установки всех зависимостей, можно выполнить её отдельно:
+```bash
+$ pip3 install -r requirements.txt
 ```
 
 ## Описание ноутбука
