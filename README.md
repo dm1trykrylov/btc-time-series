@@ -10,7 +10,7 @@ $ cd btc-time-series
 
 Чтобы избежать конфликтов версий, лучше перед запуском ноутбука активировать virtual environment :
 ```bash
-$ python -m venv venv
+$ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
